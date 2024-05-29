@@ -18,7 +18,6 @@ namespace DesafioFundamentos.Models
             string placa = Console.ReadLine();
             veiculos.Add(placa);
             Console.WriteLine($"Veículo {placa} adicionado com sucesso.");
-            Console.WriteLine("Digite a placa do veículo para estacionar:");
         }
 
         public void RemoverVeiculo()
